@@ -19,6 +19,6 @@ Thị giác máy tính nâng cao
     ·
     <a href="https://viblo.asia/p/deep-learning-thuat-toan-faster-rcnn-voi-bai-toan-phat-hien-duong-luoi-bo-faster-rcnn-object-detection-algorithm-for-nine-dash-line-detection-bJzKmREOZ9N">FASTERRCNN</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">YOLOv5</a>
+    <a href="https://viblo.asia/p/tong-hop-kien-thuc-tu-yolov1-den-yolov5-phan-1-naQZRRj0Zvx">YOLOv5</a>
   </p>
 </div>
