@@ -12,7 +12,7 @@ Thị giác máy tính nâng cao
   <h3 align="center">AN IN-CAR CAMERA SYSTEM FOR TRAFFIC SIGN DETECTION AND RECOGNITION</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    USING RETINA NET, FASTERCNN, YOLOv5
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
