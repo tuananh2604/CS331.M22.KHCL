@@ -15,7 +15,7 @@ Thị giác máy tính nâng cao
     USING RETINA NET, FASTERCNN, YOLOv5
     <br />
     <br />
-    <a href="[https://github.com/othneildrew/Best-README-Template](https://viblo.asia/p/deep-learning-thuat-toan-faster-rcnn-voi-bai-toan-phat-hien-duong-luoi-bo-faster-rcnn-object-detection-algorithm-for-nine-dash-line-detection-bJzKmREOZ9N)">RETINA NET</a>
+    <a href="https://viblo.asia/p/deep-learning-thuat-toan-faster-rcnn-voi-bai-toan-phat-hien-duong-luoi-bo-faster-rcnn-object-detection-algorithm-for-nine-dash-line-detection-bJzKmREOZ9N">RETINA NET</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
