@@ -28,23 +28,29 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#about-the-project">Tổng quan</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Mô tả bài toán</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Input</a></li>
+        <li><a href="#installation">Output</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#usage">Khái quát bộ dữ liệu</a></li>
+    <li><a href="#roadmap">Xây dựng bộ dữ liệu</a>
+      <ul>
+         <li><a href="#built-with">Các tiêu chí đề ra</a>
+      </ul>
+      <ul>
+         <li><a href="#built-with">Label sử dụng LabelImg</a>
+      </ul>
+      <ul>
+         <li><a href="#built-with">Phân bố lớp trong bộ dữ liệu</a>
+      </ul>
+    </li>
+    <li><a href="#contributing">Hướng tiếp cận</a></li>
+    <li><a href="#license">Training và Đánh giá model</a></li>
+    <li><a href="#contact">So sánh</a></li>
   </ol>
 </details>
