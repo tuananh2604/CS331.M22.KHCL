@@ -1,6 +1,6 @@
 # CS331.M22-KHCL  
-Thị giác máy tính nâng cao  
-  
+<h1 align="center">Thị giác máy tính nâng cao</h1></br>
+ 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
