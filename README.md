@@ -9,7 +9,7 @@ Thị giác máy tính nâng cao
     <img src="https://www.cio.com/wp-content/uploads/2021/12/ai-in-automotive_1280x609-100790232-orig.jpeg?quality=50&strip=all" alt="Logo" width="1280" height="609">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">NHẬN DIỆN BIỂN BÁO GIAO THÔNG QUA CAMERA HÀNH TRÌNH Ô TÔ</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
