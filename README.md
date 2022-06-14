@@ -95,19 +95,19 @@ Detect 5 loại biển chính:
 
 <div align="center">
  <a>
-    <img src="https://thietbigiaothong247.com/wp-content/uploads/2017/04/bien-cam-di-nguoc-chieu-400x400.jpg" alt="Logo" width="100" height="100">
+    <img src="https://thietbigiaothong247.com/wp-content/uploads/2017/04/bien-cam-di-nguoc-chieu-400x400.jpg" alt="Logo" width="70" height="70">
  </a>
  <a>
-    <img src="http://www.baoholaodong247.com/Portals/26918/302a.jpg" alt="Logo" width="100" height="100">
+    <img src="http://www.baoholaodong247.com/Portals/26918/302a.jpg" alt="Logo" width="70" height="70">
  </a>
  <a>
-    <img src="https://alohoc.com/data/upload/2019/0217/207c-giao-nhau-voi-duong-khong-uu-tien-500x500.jpg?ver=1655170526" alt="Logo" width="100" height="100">
+    <img src="https://alohoc.com/data/upload/2019/0217/207c-giao-nhau-voi-duong-khong-uu-tien-500x500.jpg?ver=1655170526" alt="Logo" width="70" height="70">
  </a>
  <a>
-    <img src="https://thuthuat.taimienphi.vn/cf/Images/gl/2019/4/5/bien-bao-cam-do-xe-p-131a-p-131b-p-131c.jpg" alt="Logo" width="100" height="100">
+    <img src="https://thuthuat.taimienphi.vn/cf/Images/gl/2019/4/5/bien-bao-cam-do-xe-p-131a-p-131b-p-131c.jpg" alt="Logo" width="70" height="70">
  </a>
  <a>
-    <img src="http://baoholaodong247.com/DesktopModules/Store/Thumbnail.aspx?IP=/Portals/26918/423b.jpg&IW=292" alt="Logo" width="100" height="100">
+    <img src="http://baoholaodong247.com/DesktopModules/Store/Thumbnail.aspx?IP=/Portals/26918/423b.jpg&IW=292" alt="Logo" width="70" height="70">
  </a>
 </div>
 
