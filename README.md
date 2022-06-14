@@ -151,6 +151,7 @@ Tổng cộng 3465 bức ảnh được trích xuất ra từ các đoạn video
 </div>
 
 ### Giới thiệu về RetinaNet
+<h3>RetinaNet:</h3>
 RetinaNet sử dụng ResNet và FPN như là backbone để trích xuất đặc trưng của ảnh. </br>
 Ngoài ra sử dụng hàm focal loss nhằm giảm thiểu mất mát của những trường hợp dễ dự báo do đó tập trung hơn vào những trường hợp khó dự báo. Nhờ đó cải thiện được độ chính xác.
 <div align="center">
@@ -159,5 +160,12 @@ Ngoài ra sử dụng hàm focal loss nhằm giảm thiểu mất mát của nh�
      </a>
 </div>
 
+<h3>Feature Pyramid Network:</h3>
+Feature extractor kết hợp giữa Resnet + FPN, có tác dụng trích lọc đặc trưng và trả về các feature map. Mạng FPN (Featuer Pyramid Network) sẽ tạo ra một multi-head dạng kim tự tháp.
+<div align="center">
+     <a>
+          <img src="https://miro.medium.com/max/1380/1*D_EAjMnlR9v4LqHhEYZJLg.png" alt="Logo" width="690" height="395">
+     </a>
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
