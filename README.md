@@ -67,9 +67,11 @@
 <!-- ABOUT THE PROJECT -->
 ## Tổng quan
 
-<a>
+<div align="center">
+ <a>
     <img src="https://storage.googleapis.com/enterknow.com/data-contents/2021/09/autonomous-driving.jpg" alt="Logo" width="600" height="375">
-</a>
+ </a>
+</div>
  
 Trong thời đại ngày càng phát triển, việc giúp cho máy tính có thể nhận diện các đối tượng giống như con người ngày càng trở nên quan trọng. Và nhóm chúng em đã nghiên cứu để giúp máy tính có thể nhận diện được biển báo giao thông ứng dụng trong phát triển xe tự hành. Qua đó có thể giúp xe tự hành có thể tự lưu thông trên đường 1 cách an toàn hơn mà không gây ảnh hưởng đến người lái xe cũng như những người tham gia giao thông trên cùng tuyến đường.
 
