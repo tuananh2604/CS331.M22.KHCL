@@ -23,6 +23,28 @@
   </p>
 </div>
 
+<table align="center">
+ <tr>
+  <th>MSSV</th>
+  <th>Họ và tên</th>
+  <th>Email</th>
+ </tr>
+ <tr>
+  <td>19521332</td>
+  <td>Lê Thành Đạt</td>
+  <td>19521332@gmail.com</td>
+ </tr>
+ <tr>
+  <td>19521228</td>
+  <td>Vũ Tuấn Anh</td>
+  <td>19521228@gmail.com</td>
+ </tr>
+ <tr>
+  <td>19520008</td>
+  <td>Cao Tuấn Anh</td>
+  <td>19520008@gmail.com</td>
+ </tr>
+</table>
 
 <!-- TABLE OF CONTENTS -->
 <details>
