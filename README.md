@@ -44,7 +44,7 @@
          <li><a href="#Các-tiêu-chí-đề-ra">Các tiêu chí đề ra</a>
       </ul>
       <ul>
-         <li><a href="#Label-sử-dụng-LabelImg">Label sử dụng LabelImg</a>
+         <li><a href="#Label-dữ-liệu-sử-dụng-LabelImg">Label dữ liệu sử dụng LabelImg</a>
       </ul>
       <ul>
          <li><a href="#Phân-bố-lớp-trong-bộ-dữ-liệu">Phân bố lớp trong bộ dữ liệu</a>
@@ -122,10 +122,22 @@ Tổng cộng 3465 bức ảnh được trích xuất ra từ các đoạn video
 
 <!-- KHÁI QUÁT BỘ DỮ LIỆU -->
 ## Xây dựng bộ dữ liệu
-### Các tiêu chí đề ra
+### Các tiêu chí đề ra:
 * Hình được lấy từ mặt trước biển báo và phải chứa ít nhất 1 biển báo.
 * Các biển báo ở tầm trung cần phải rõ ràng, không bị nhòe, không quá mờ, có thể nhận diện được nội dung bên trong biển báo bằng mắt thường.
 * Biển báo có thể tối hoặc ngược sáng nhưng vẫn phải nhìn được nội dung biển báo.
 * Biển báo từ góc nhìn của camera hành trình của xe ô tô.
+
+### Label dữ liệu sử dụng LabelImg:
+* Gán nhãn với định dạng YOLO. Định dạng YOLO là định dạng file text và mỗi bbox được xác định bằng một bộ 5 số lần lượt là tên lớp (class), tọa độ tâm của bbox (x, y), chiều ngang và chiều cao của bbox (w, h).
+* Với tổng cộng 6 class: 5 biển chính và 1 biển khác
+
+### Phân bố lớp trong bộ dữ liệu
+* Cấm đi ngược chiều: 1716
+* Hướng đi phải vòng sang phải: 1069
+* Giao nhau với đường không ưu tiên: 362
+* Người đi bộ: 593
+* Cấm đỗ xe: 678
+* Biển khác: 2183
 
 <p align="right">(<a href="#top">back to top</a>)</p>
