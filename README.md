@@ -38,30 +38,30 @@
         <li><a href="#Output">Output</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Khái quát bộ dữ liệu</a></li>
-    <li><a href="#roadmap">Xây dựng bộ dữ liệu</a>
+    <li><a href="#Khái-quát-bộ-dữ-liệu">Khái quát bộ dữ liệu</a></li>
+    <li><a href="#Xây-dựng-bộ-dữ-liệu">Xây dựng bộ dữ liệu</a>
       <ul>
-         <li><a href="#built-with">Các tiêu chí đề ra</a>
+         <li><a href="#Các-tiêu-chí-đề-ra">Các tiêu chí đề ra</a>
       </ul>
       <ul>
-         <li><a href="#built-with">Label sử dụng LabelImg</a>
+         <li><a href="#Label-sử-dụng-LabelImg">Label sử dụng LabelImg</a>
       </ul>
       <ul>
-         <li><a href="#built-with">Phân bố lớp trong bộ dữ liệu</a>
+         <li><a href="#Phân-bố-lớp-trong-bộ-dữ-liệu">Phân bố lớp trong bộ dữ liệu</a>
       </ul>
     </li>
-    <li><a href="#contributing">Hướng tiếp cận</a></li>
+    <li><a href="#Hướng-tiếp-cận">Hướng tiếp cận</a></li>
       <ul>
-         <li><a href="#built-with">Giới thiệu về Retina Net</a>
+         <li><a href="#Giới-thiệu-về-Retina-Net">Giới thiệu về Retina Net</a>
       </ul>
       <ul>
-         <li><a href="#built-with">Giới thiệu về FasterRCNN</a>
+         <li><a href="#Giới-thiệu-về-FasterRCNN">Giới thiệu về FasterRCNN</a>
       </ul>
       <ul>
-         <li><a href="#built-with">Giới thiệu về YOLOv5</a>
+         <li><a href="#Giới-thiệu-về-YOLOv5">Giới thiệu về YOLOv5</a>
       </ul>
-    <li><a href="#license">Training và Đánh giá model</a></li>
-    <li><a href="#contact">So sánh</a></li>
+    <li><a href="#Training-và-Đánh-giá-model">Training và Đánh giá model</a></li>
+    <li><a href="#So-sánh">So sánh</a></li>
   </ol>
 </details>
 
@@ -110,5 +110,10 @@ Detect 5 loại biển chính:
     <img src="http://baoholaodong247.com/DesktopModules/Store/Thumbnail.aspx?IP=/Portals/26918/423b.jpg&IW=292" alt="Logo" width="70" height="70">
  </a>
 </div>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- KHÁI QUÁT BỘ DỮ LIỆU -->
+## Khái quát bộ dữ liệu
 
 <p align="right">(<a href="#top">back to top</a>)</p>
