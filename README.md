@@ -116,4 +116,16 @@ Detect 5 loại biển chính:
 <!-- KHÁI QUÁT BỘ DỮ LIỆU -->
 ## Khái quát bộ dữ liệu
 
+Tổng cộng 3465 bức ảnh được trích xuất ra từ các đoạn video ngắn của camera hành trình ô tô. 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- KHÁI QUÁT BỘ DỮ LIỆU -->
+## Xây dựng bộ dữ liệu
+### Các tiêu chí đề ra
+* Hình được lấy từ mặt trước biển báo và phải chứa ít nhất 1 biển báo.
+* Các biển báo ở tầm trung cần phải rõ ràng, không bị nhòe, không quá mờ, có thể nhận diện được nội dung bên trong biển báo bằng mắt thường.
+* Biển báo có thể tối hoặc ngược sáng nhưng vẫn phải nhìn được nội dung biển báo.
+* Biển báo từ góc nhìn của camera hành trình của xe ô tô.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
