@@ -220,7 +220,7 @@ Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> s
 <ins>Khó dự báo:</ins> p<sub>t</sub> sẽ nhỏ do đó (1-p<sub>t</sub>)<sup>y</sup> lớn tác động của nó lên loss function và gradient descent là sẽ gần bằng 1. Mức độ tác động này lớn hơn nhiều lần so với trường hợp dễ dự báo.
 
 ### Giới thiệu về FasterRCNN:
-<h3>FasterRCNN:</h3>
+<h3>Faster R-CNN:</h3>
 *Faster R-CNN là mô hình tốt nhất của họ nhà R-CNN, được công bố đầu tiên vào năm 2015. </br>
 *Được kế thừa từ Fast R-CNN. Tuy nhiên với việc thay thế thuật toán selective search bằng mạng Region Proposal Network. Nhờ đó Faster R-CNN nhanh hơn hẳn các dòng R-CNN trước đó.
 <div align="center">
@@ -229,6 +229,25 @@ Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> s
      </a>
      <a>
           <img src="https://i1.wp.com/nttuan8.com/wp-content/uploads/2019/05/faster_rcnn_result.png?resize=768%2C439&ssl=1" alt="Logo" width="251" height="209.75">
+     </a>
+</div>
+
+<h3>Kiến trúc Faster R-CNN</h3>
+*Đầu tiên cả bức ảnh được cho qua pre-trained model để lấy feature map. Sau đó feature map được dùng cho Region Proposal Network để lấy được các region proposal. </br>
+*Sau đó tiếp tục đưa region proposal qua RoI pooling và 2 lớp FC để dự đoán lớp và giá trị offset values của bounding box
+<div align="center">
+     <a>
+          <img src="https://production-media.paperswithcode.com/models/FASTER-RCNN_Ogov86y.png" alt="Logo" width="212.5" height="214.5">
+     </a>
+</div>
+
+<h3>Region proposal network (RPN):</h3>
+*Một Region Proposal Network nhận đầu vào là feature map và cho đầu ra là region proposal (tập vị trí của các hình chữ nhật có thể chứa vật thể). </br>
+*Với mỗi tâm anchor box ta sẽ định nghĩa 9 anchor box với kích thước khác nhau. </br>
+*Tuy nhiên ta sẽ chỉ giữ lại N anchor nhất định để làm region proposal.
+<div align="center">
+     <a>
+          <img src="https://miro.medium.com/max/785/1*FifNx4NCyynAZqLjVtB5Ow.png" alt="Logo" width="314" height="205.5">
      </a>
 </div>
 
