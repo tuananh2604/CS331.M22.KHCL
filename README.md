@@ -14,7 +14,7 @@
     USING RETINA NET, FASTERCNN, YOLOv5
     <br />
     <br />
-    <a href="https://www.miai.vn/2021/04/01/xay-dung-he-thong-nhan-dien-bien-bao-giao-thong-bang-retinanet/">RETINA NET</a>
+    <a href="https://www.miai.vn/2021/04/01/xay-dung-he-thong-nhan-dien-bien-bao-giao-thong-bang-retinanet/">RETINANET</a>
     ·
     <a href="https://viblo.asia/p/deep-learning-thuat-toan-faster-rcnn-voi-bai-toan-phat-hien-duong-luoi-bo-faster-rcnn-object-detection-algorithm-for-nine-dash-line-detection-bJzKmREOZ9N">FASTERRCNN</a>
     ·
@@ -52,7 +52,7 @@
     </li>
     <li><a href="#Hướng-tiếp-cận">Hướng tiếp cận</a></li>
       <ul>
-         <li><a href="#Giới-thiệu-về-Retina-Net">Giới thiệu về Retina Net</a>
+         <li><a href="#Giới-thiệu-về-RetinaNet">Giới thiệu về RetinaNet</a>
       </ul>
       <ul>
          <li><a href="#Giới-thiệu-về-FasterRCNN">Giới thiệu về FasterRCNN</a>
@@ -139,5 +139,25 @@ Tổng cộng 3465 bức ảnh được trích xuất ra từ các đoạn video
 * Người đi bộ: 593
 * Cấm đỗ xe: 678
 * Biển khác: 2183
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Hướng tiếp cận
+<div align="center">
+    Chúng em sẽ tiếp cận bài toán với 3 mô hình là: </br>
+         RetinaNet </br>
+         FasterRCNN </br>
+         YOLOv5
+</div>
+
+### Giới thiệu về RetinaNet
+RetinaNet sử dụng ResNet và FPN như là backbone để trích xuất đặc trưng của ảnh. </br>
+Ngoài ra sử dụng hàm focal loss nhằm giảm thiểu mất mát của những trường hợp dễ dự báo do đó tập trung hơn vào những trường hợp khó dự báo. Nhờ đó cải thiện được độ chính xác.
+<div align="center">
+     <a>
+          <img src="https://developers.arcgis.com/python/guide/images/retinanet.png" alt="Logo" width="1069" height="321">
+     </a>
+</div>
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
