@@ -168,4 +168,29 @@ Feature extractor kết hợp giữa Resnet + FPN, có tác dụng trích lọc 
      </a>
 </div>
 
+<h3>Focal Loss: </h3>
+<div align="center">
+     <a>
+          <img src="https://miro.medium.com/max/458/1*VlXKyklT9IR0yjF1olGUig.png" alt="Logo" width="210" height="60"> </br>
+     </a>
+     <a>
+          <img src="https://miro.medium.com/max/544/1*TxrD3p6nwmryJPtyaOPdQw.png" alt="Logo" width="210" height="60">
+     </a>
+</div>
+Khi xảy ra hiện tượng mất cân bằng, chúng ta muốn rằng mô hình sẽ dự báo chuẩn hơn đối với những class thiểu số. Do đó cần một hàm loss function hiệu quả hơn, có thể điều chỉnh được giá trị phạt lớn hơn nếu dự báo sai đối với nhóm thiểu số. Mục đích là để hạn chế dự báo sai nhóm thiểu số vì nếu dự báo sai nhóm thiểu số thì hàm loss function sẽ trở nên lớn hơn.
+<div align="center">
+     <a>
+          <img src="https://miro.medium.com/max/426/1*P9-gyIKp1WjdolhiehwfFg.png" alt="Logo" width="210" height="60"> </br>
+     </a>
+</div>
+Hàm balanced cross entropy là hàm số cân bằng được tỷ lệ phân phối của mẫu. Nhưng nó chưa thực sự thay đổi được gradient descent của loss function. Trong khi mô hình được huấn luyện trên mẫu mất cân bằng trầm trọng có giá trị gradient descent chịu ảnh hưởng phần lớn bởi class chiếm đa số.
+<div align="center">
+     <a>
+          <img src="https://miro.medium.com/max/524/1*kJ_nhgNespK_SjD17d9qBA.png" alt="Logo" width="210" height="60"> </br>
+     </a>
+</div>
+Ta thấy hàm focal loss chỉ thêm nhân tử (1-qi)^y so với công thức của balanced cross entropy. Tuy nhiên nhân tử này lại có tác dụng rất lớn trong việc điều chỉnh ảnh hưởng của nhãn lên đồng thời loss function và gradient descent. </br>
+<u>Dễ dự báo:</u> qi sẽ lớn do đó (1-qi)^y có xu hướng rất nhỏ và dường như không tác động lên loss function và gradient descent đáng kể. </br>
+Khó dự báo: qi sẽ nhỏ do đó (1-qi)^y lớn tác động của nó lên loss function và gradient descent là sẽ gần bằng 1. Mức độ tác động này lớn hơn nhiều lần so với trường hợp dễ dự báo.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
