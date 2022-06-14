@@ -50,6 +50,15 @@
       </ul>
     </li>
     <li><a href="#contributing">Hướng tiếp cận</a></li>
+      <ul>
+         <li><a href="#built-with">Giới thiệu về Retina Net</a>
+      </ul>
+      <ul>
+         <li><a href="#built-with">Giới thiệu về FasterRCNN</a>
+      </ul>
+      <ul>
+         <li><a href="#built-with">Giới thiệu về YOLOv5</a>
+      </ul>
     <li><a href="#license">Training và Đánh giá model</a></li>
     <li><a href="#contact">So sánh</a></li>
   </ol>
