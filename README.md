@@ -12,8 +12,8 @@
 
   <p align="center">
     USING RETINA NET, FASTERCNN, YOLOv5
-    <br />
-    <br />
+    </br>
+    </br>
     <a href="https://www.miai.vn/2021/04/01/xay-dung-he-thong-nhan-dien-bien-bao-giao-thong-bang-retinanet/">RETINANET</a>
     ·
     <a href="https://viblo.asia/p/deep-learning-thuat-toan-faster-rcnn-voi-bai-toan-phat-hien-duong-luoi-bo-faster-rcnn-object-detection-algorithm-for-nine-dash-line-detection-bJzKmREOZ9N">FASTERRCNN</a>
@@ -27,22 +27,26 @@
  <tr>
   <th>MSSV</th>
   <th>Họ và tên</th>
+  <th>Github</th>
   <th>Email</th>
  </tr>
  <tr>
   <td>19521332</td>
   <td>Lê Thành Đạt</td>
-  <td>19521332@gmail.com</td>
+  <td><a href="https://github.com/ledat1205">ledat1205<a></td>
+  <td><a href="19521332@gmail.uit.edu.vn">19521332@gmail.uit.edu.vn<a></td>
  </tr>
  <tr>
-  <td>19521228</td>
+  <td>19521332</td>
   <td>Vũ Tuấn Anh</td>
-  <td>19521228@gmail.com</td>
+  <td><a href="https://github.com/TuanAnhlewlew">TuanAnhlewlew<a></td>
+  <td><a href="19521228@gmail.uit.edu.vn">19521228@gmail.uit.edu.vn<a></td>
  </tr>
  <tr>
   <td>19520008</td>
   <td>Cao Tuấn Anh</td>
-  <td>19520008@gmail.com</td>
+  <td><a href="https://github.com/tuananh2604">tuananh2604<a></td>
+  <td><a href="1950008@gmail.uit.edu.vn">1950008@gmail.uit.edu.vn<a></td>
  </tr>
 </table>
 
