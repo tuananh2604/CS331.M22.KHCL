@@ -219,4 +219,11 @@ Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> s
 <ins>Dễ dự báo:</ins> p<sub>t</sub> sẽ lớn do đó (1-p<sub>t</sub>)<sup>y</sup> có xu hướng rất nhỏ và dường như không tác động lên loss function và gradient descent đáng kể.</br>
 <ins>Khó dự báo:</ins> p<sub>t</sub> sẽ nhỏ do đó (1-p<sub>t</sub>)<sup>y</sup> lớn tác động của nó lên loss function và gradient descent là sẽ gần bằng 1. Mức độ tác động này lớn hơn nhiều lần so với trường hợp dễ dự báo.
 
+### Giới thiệu về FasterRCNN:
+<h3>FasterRCNN:</h3>
+*Faster R-CNN là mô hình tốt nhất của họ nhà R-CNN, được công bố đầu tiên vào năm 2015. </br>
+*Được kế thừa từ Fast R-CNN. Tuy nhiên với việc thay thế thuật toán selective search bằng mạng Region Proposal Network. Nhờ đó Faster R-CNN nhanh hơn hẳn các dòng R-CNN trước đó.
+
+### Giới thiệu về YOLOv5:
+
 <p align="right">(<a href="#top">back to top</a>)</p>
