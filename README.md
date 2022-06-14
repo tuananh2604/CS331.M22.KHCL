@@ -189,8 +189,8 @@ Hàm balanced cross entropy là hàm số cân bằng được tỷ lệ phân p
           <img src="https://miro.medium.com/max/524/1*kJ_nhgNespK_SjD17d9qBA.png" alt="Logo" width="210" height="60"> </br>
      </a>
 </div>
-Ta thấy hàm focal loss chỉ thêm nhân tử (1-qi)^y so với công thức của balanced cross entropy. Tuy nhiên nhân tử này lại có tác dụng rất lớn trong việc điều chỉnh ảnh hưởng của nhãn lên đồng thời loss function và gradient descent. </br>
-<u>Dễ dự báo:</u> qi sẽ lớn do đó (1-qi)^y có xu hướng rất nhỏ và dường như không tác động lên loss function và gradient descent đáng kể. </br>
-Khó dự báo: qi sẽ nhỏ do đó (1-qi)^y lớn tác động của nó lên loss function và gradient descent là sẽ gần bằng 1. Mức độ tác động này lớn hơn nhiều lần so với trường hợp dễ dự báo.
+Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> so với công thức của balanced cross entropy. Tuy nhiên nhân tử này lại có tác dụng rất lớn trong việc điều chỉnh ảnh hưởng của nhãn lên đồng thời loss function và gradient descent. </br>
+<ins>Dễ dự báo:</ins> p<sub>t</sub> sẽ lớn do đó (1-p<sub>t</sub>)<sup>y</sup> có xu hướng rất nhỏ và dường như không tác động lên loss function và gradient descent đáng kể.</br>
+<ins>Khó dự báo:</ins> p<sub>t</sub> sẽ nhỏ do đó (1-p<sub>t</sub>)<sup>y</sup> lớn tác động của nó lên loss function và gradient descent là sẽ gần bằng 1. Mức độ tác động này lớn hơn nhiều lần so với trường hợp dễ dự báo.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
