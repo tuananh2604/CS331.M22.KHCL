@@ -28,7 +28,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Tổng quan">Tổng quan</a>
+      <a href="#Tổng-quan">Tổng quan</a>
     </li>
     <li>
       <a href="#getting-started">Mô tả bài toán</a>
