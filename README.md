@@ -31,10 +31,10 @@
       <a href="#Tổng-quan">Tổng quan</a>
     </li>
     <li>
-      <a href="#getting-started">Mô tả bài toán</a>
+      <a href="#Mô-tả-bài-toán">Mô tả bài toán</a>
       <ul>
-        <li><a href="#prerequisites">Input</a></li>
-        <li><a href="#installation">Output</a></li>
+        <li><a href="#Input">Input</a></li>
+        <li><a href="#Output">Output</a></li>
       </ul>
     </li>
     <li><a href="#usage">Khái quát bộ dữ liệu</a></li>
@@ -64,7 +64,7 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
+<!-- TỔNG QUAN -->
 ## Tổng quan
 
 <div align="center">
@@ -76,3 +76,11 @@
 Trong thời đại ngày càng phát triển, việc giúp cho máy tính có thể nhận diện các đối tượng giống như con người ngày càng trở nên quan trọng. Và nhóm chúng em đã nghiên cứu để giúp máy tính có thể nhận diện được biển báo giao thông ứng dụng trong phát triển xe tự hành. Qua đó có thể giúp xe tự hành có thể tự lưu thông trên đường 1 cách an toàn hơn mà không gây ảnh hưởng đến người lái xe cũng như những người tham gia giao thông trên cùng tuyến đường.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MÔ TẢ BÀI TOÁN -->
+## Mô tả bài toán
+### Input
+Một hình ảnh chứa biển báo giao thông dưới góc nhìn của camera hành trình ô tô.
+
+### Output
+Hình ảnh chứa bounding box các loại biển báo giao thông và nhãn cho các bounding box đó.
