@@ -18,7 +18,8 @@
     ·
     <a href="https://viblo.asia/p/deep-learning-thuat-toan-faster-rcnn-voi-bai-toan-phat-hien-duong-luoi-bo-faster-rcnn-object-detection-algorithm-for-nine-dash-line-detection-bJzKmREOZ9N">FASTERRCNN</a>
     ·
-    <a href="https://viblo.asia/p/tong-hop-kien-thuc-tu-yolov1-den-yolov5-phan-1-naQZRRj0Zvx">YOLOv5</a>
+    <a href="https://viblo.asia/p/tong-hop-kien-thuc-tu-yolov1-den-yolov5-phan-1-naQZRRj0Zvx">YOLOv5</a></br>
+    <a href="https://drive.google.com/drive/folders/1WT62tiCCsOyEOoRtkzo4n9BwpufK0zmb">LINK PROJECT</a>
   </p>
 </div>
 
@@ -84,5 +85,30 @@ Một hình ảnh chứa biển báo giao thông dưới góc nhìn của camera
 
 ### Output
 Hình ảnh chứa bounding box các loại biển báo giao thông và nhãn cho các bounding box đó.
+
+Detect 5 loại biển chính:
+* Cấm đi ngược chiều.
+* Hướng đi phải vòng sang phải.
+* Giao nhau với đường không ưu tiên.
+* Cấm đỗ xe.
+* Người đi bộ.
+
+<div align="center">
+ <a>
+    <img src="https://thietbigiaothong247.com/wp-content/uploads/2017/04/bien-cam-di-nguoc-chieu-400x400.jpg" alt="Logo" width="100" height="100">
+ </a>
+ <a>
+    <img src="http://www.baoholaodong247.com/Portals/26918/302a.jpg" alt="Logo" width="100" height="100">
+ </a>
+ <a>
+    <img src="https://alohoc.com/data/upload/2019/0217/207c-giao-nhau-voi-duong-khong-uu-tien-500x500.jpg?ver=1655170526" alt="Logo" width="100" height="100">
+ </a>
+ <a>
+    <img src="https://thuthuat.taimienphi.vn/cf/Images/gl/2019/4/5/bien-bao-cam-do-xe-p-131a-p-131b-p-131c.jpg" alt="Logo" width="100" height="100">
+ </a>
+ <a>
+    <img src="http://baoholaodong247.com/DesktopModules/Store/Thumbnail.aspx?IP=/Portals/26918/423b.jpg&IW=292" alt="Logo" width="100" height="100">
+ </a>
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
