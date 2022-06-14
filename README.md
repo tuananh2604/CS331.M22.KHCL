@@ -1,4 +1,4 @@
-# CS331.M22-KHCL  
+# CS331.M22.KHCL  
 <h1 align="center">Thị giác máy tính nâng cao</h1>
  
 <!-- PROJECT LOGO -->
@@ -223,6 +223,14 @@ Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> s
 <h3>FasterRCNN:</h3>
 *Faster R-CNN là mô hình tốt nhất của họ nhà R-CNN, được công bố đầu tiên vào năm 2015. </br>
 *Được kế thừa từ Fast R-CNN. Tuy nhiên với việc thay thế thuật toán selective search bằng mạng Region Proposal Network. Nhờ đó Faster R-CNN nhanh hơn hẳn các dòng R-CNN trước đó.
+<div align="center">
+     <a>
+          <img src="https://miro.medium.com/max/1400/1*tTqg3W165itg-LVRFxHJfA.jpeg" alt="Logo" width="251" height="209.75">
+     </a>
+     <a>
+          <img src="https://i1.wp.com/nttuan8.com/wp-content/uploads/2019/05/faster_rcnn_result.png?resize=768%2C439&ssl=1" alt="Logo" width="251" height="209.75">
+     </a>
+</div>
 
 ### Giới thiệu về YOLOv5:
 
