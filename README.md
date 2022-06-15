@@ -182,7 +182,7 @@ RetinaNet sử dụng ResNet và FPN như là backbone để trích xuất đặ
 Ngoài ra sử dụng hàm focal loss nhằm giảm thiểu mất mát của những trường hợp dễ dự báo do đó tập trung hơn vào những trường hợp khó dự báo. Nhờ đó cải thiện được độ chính xác.
 <div align="center">
      <a>
-          <img src="https://developers.arcgis.com/python/guide/images/retinanet.png" alt="Logo" width="1069" height="321">
+          <img src="https://developers.arcgis.com/python/guide/images/retinanet.png" alt="Logo" width="534.5" height="160.5">
      </a>
 </div>
 
@@ -190,7 +190,7 @@ Ngoài ra sử dụng hàm focal loss nhằm giảm thiểu mất mát của nh�
 Feature extractor kết hợp giữa Resnet + FPN, có tác dụng trích lọc đặc trưng và trả về các feature map. Mạng FPN (Featuer Pyramid Network) sẽ tạo ra một multi-head dạng kim tự tháp.
 <div align="center">
      <a>
-          <img src="https://miro.medium.com/max/1380/1*D_EAjMnlR9v4LqHhEYZJLg.png" alt="Logo" width="690" height="395">
+          <img src="https://miro.medium.com/max/1380/1*D_EAjMnlR9v4LqHhEYZJLg.png" alt="Logo" width="345" height="197.5">
      </a>
 </div>
 
@@ -252,5 +252,13 @@ Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> s
 </div>
 
 ### Giới thiệu về YOLOv5:
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Training và đánh giá modedl
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## So sánh
 
 <p align="right">(<a href="#top">back to top</a>)</p>
