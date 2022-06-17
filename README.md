@@ -107,10 +107,10 @@ Trong thời đại ngày càng phát triển, việc giúp cho máy tính có t
 <!-- MÔ TẢ BÀI TOÁN -->
 ## Mô tả bài toán
 ### Input
-Một hình ảnh chứa biển báo giao thông dưới góc nhìn của camera hành trình ô tô.
+<p align="center"> Một hình ảnh chứa biển báo giao thông dưới góc nhìn của camera hành trình ô tô </p>
 
 ### Output
-Hình ảnh chứa bounding box các loại biển báo giao thông và nhãn cho các bounding box đó.
+<p align="center">Hình ảnh chứa bounding box các loại biển báo giao thông và nhãn cho các bounding box đó </p>
 
 Detect 5 loại biển chính:
 * Cấm đi ngược chiều.
@@ -221,8 +221,8 @@ Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> s
 
 ### Giới thiệu về FasterRCNN:
 <h3>Faster R-CNN:</h3>
-*Faster R-CNN là mô hình tốt nhất của họ nhà R-CNN, được công bố đầu tiên vào năm 2015. </br>
-*Được kế thừa từ Fast R-CNN. Tuy nhiên với việc thay thế thuật toán selective search bằng mạng Region Proposal Network. Nhờ đó Faster R-CNN nhanh hơn hẳn các dòng R-CNN trước đó.
+- Faster R-CNN là mô hình tốt nhất của họ nhà R-CNN, được công bố đầu tiên vào năm 2015. </br>
+- Được kế thừa từ Fast R-CNN. Tuy nhiên với việc thay thế thuật toán selective search bằng mạng Region Proposal Network. Nhờ đó Faster R-CNN nhanh hơn hẳn các dòng R-CNN trước đó.
 <div align="center">
      <a>
           <img src="https://miro.medium.com/max/1400/1*tTqg3W165itg-LVRFxHJfA.jpeg" alt="Logo" width="251" height="209.75">
@@ -233,8 +233,8 @@ Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> s
 </div>
 
 <h3>Kiến trúc Faster R-CNN</h3>
-*Đầu tiên cả bức ảnh được cho qua pre-trained model để lấy feature map. Sau đó feature map được dùng cho Region Proposal Network để lấy được các region proposal. </br>
-*Sau đó tiếp tục đưa region proposal qua RoI pooling và 2 lớp FC để dự đoán lớp và giá trị offset values của bounding box
+- Đầu tiên cả bức ảnh được cho qua pre-trained model để lấy feature map. Sau đó feature map được dùng cho Region Proposal Network để lấy được các region proposal. </br>
+- Sau đó tiếp tục đưa region proposal qua RoI pooling và 2 lớp FC để dự đoán lớp và giá trị offset values của bounding box
 <div align="center">
      <a>
           <img src="https://production-media.paperswithcode.com/models/FASTER-RCNN_Ogov86y.png" alt="Logo" width="212.5" height="214.5">
@@ -242,16 +242,30 @@ Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> s
 </div>
 
 <h3>Region proposal network (RPN):</h3>
-*Một Region Proposal Network nhận đầu vào là feature map và cho đầu ra là region proposal (tập vị trí của các hình chữ nhật có thể chứa vật thể). </br>
-*Với mỗi tâm anchor box ta sẽ định nghĩa 9 anchor box với kích thước khác nhau. </br>
-*Tuy nhiên ta sẽ chỉ giữ lại N anchor nhất định để làm region proposal.
+- Một Region Proposal Network nhận đầu vào là feature map và cho đầu ra là region proposal (tập vị trí của các hình chữ nhật có thể chứa vật thể). </br>
+- Với mỗi tâm anchor box ta sẽ định nghĩa 9 anchor box với kích thước khác nhau. </br>
+- Tuy nhiên ta sẽ chỉ giữ lại N anchor nhất định để làm region proposal.
 <div align="center">
      <a>
           <img src="https://miro.medium.com/max/785/1*FifNx4NCyynAZqLjVtB5Ow.png" alt="Logo" width="314" height="205.5">
      </a>
 </div>
 
-### Giới thiệu về YOLOv5:
+### Giới thiệu về YOLO:
+<h3>YOU ONLY LOOK ONCE (YOLO)</h3>
+- Là một mô hình mạng CNN cho việc phát triển, nhận dạng, phân loại đối tượng với ưu điểm nổi trội là nhanh hơn nhiều so với những mô hình cũ. </br>
+- YOLO được tạo ra từ việc kết hợp giữa các convolutional layers và connected layers. </br>
+- Các kiến trúc YOLO cũng khá đa dạng và có thể tùy biến thành các version cho nhiều input shape khác nhau.
+<div align="center">
+     <a>
+          <img src="https://phamdinhkhanh.github.io/assets/images/20200309_YOLOAlgorithm/h1.png" alt="Logo" width="667" height="201">
+          <p>Sơ đồ kiến trúc mạng YOLO</p>
+     </a>
+</div>
+<h3>YOLOv5</h3>
+- Ra đời sau một thời gian ngắn kể từ khi YOLOv4 được công bố và được triển khai trong PyTorch trong khi tất cả các mô hình YOLO trước đều sử dụng Darknet. </br>
+- Điểm cải tiến chính của YOLOv5 là 2 kỹ thuật mosaic data augmentation and auto learning bounding box anchors.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
