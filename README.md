@@ -87,7 +87,7 @@
          <li><a href="#Giới-thiệu-về-YOLOv5">Giới thiệu về YOLOv5</a>
       </ul>
     <li><a href="#Training-và-Đánh-giá-model">Training và Đánh giá model</a></li>
-    <li><a href="#So-sánh">So sánh</a></li>
+    <li><a href="#So-sánh-3-hướng-tiếp-cận-trên-tập-test">So sánh 3 hướng tiếp cận trên tập test</a></li>
   </ol>
 </details>
 
@@ -277,6 +277,6 @@ Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> s
 </div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## So sánh
+## So sánh 3 hướng tiếp cận trên tập test
 
 <p align="right">(<a href="#top">back to top</a>)</p>
