@@ -269,8 +269,12 @@ Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> s
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Training và đánh giá modedl
-
+## Training và đánh giá model
+<div align="center">
+     <a href="https://drive.google.com/drive/folders/1R8metwGEWi5fSK_NW2KWk65AnhYlbfDT">RetinaNet</a></br>
+     <a href="https://drive.google.com/drive/folders/1lasKfIoCPo6qT4gIPK-FVYrgGGwxmqiB">Faster R-CNN</a></br>
+     <a href="https://drive.google.com/drive/folders/1AHeNIeLSRvvwT-1F0tIG-GSjXzKq0Ak5">YOLOv5</a>
+</div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## So sánh
