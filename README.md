@@ -278,5 +278,33 @@ Ta thấy hàm focal loss chỉ thêm nhân tử (1-p<sub>t</sub>)<sup>y</sup> s
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## So sánh 3 hướng tiếp cận trên tập test
-
+<div align="center">
+      <p>RetinaNet vs Faster R-CNN vs YOLOv5</p>
+      <table align="center">
+            <tr>
+               <th></th>
+               <th>mAP @.5</th>
+               <th>mAP @.5 : .95</th>
+               <th>Thời gian train/epoch</th>
+            </tr>
+            <tr>
+               <td>RetinaNet</td>
+               <td>0.619</td>
+               <td>0.444</td>
+               <td>5p55s 25 epoch</td>
+            </tr>
+            <tr>
+               <td>Faster R-CNN</td>
+               <td>0.728</td>
+               <td>0.363</td>
+               <td>4p30s 30 epoch</td>
+            </tr>
+            <tr>
+               <td>YOLOv5</td>
+               <td>0.968</td>
+               <td>0.679</td>
+               <td>3p15s 130 epoch</td>
+            </tr>
+      </table>
+</div>
 <p align="right">(<a href="#top">back to top</a>)</p>
