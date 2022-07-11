@@ -1,5 +1,5 @@
 # CS331.M22.KHCL  
-<h1 align="center">Thị giác máy tính nâng cao</h1>
+<h1 align="center">THỊ GIÁC MÁY TÍNH NÂNG CAO</h1>
  
 <!-- PROJECT LOGO -->
 <div align="center">
