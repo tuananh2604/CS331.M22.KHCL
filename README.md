@@ -112,12 +112,13 @@ Trong thời đại ngày càng phát triển, việc giúp cho máy tính có t
 ### Output
 <p align="center">Hình ảnh chứa bounding box các loại biển báo giao thông và nhãn cho các bounding box đó </p>
 
-Detect 5 loại biển chính:
+Detect 6 loại biển chính:
 * Cấm đi ngược chiều.
 * Hướng đi phải vòng sang phải.
 * Giao nhau với đường không ưu tiên.
 * Cấm đỗ xe.
 * Người đi bộ.
+* Biển khác.
 
 <div align="center">
  <a>
